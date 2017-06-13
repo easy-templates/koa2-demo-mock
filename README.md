@@ -9,10 +9,14 @@
 [中文文档](https://github.com/easy-templates/koa2-demo-mock/blob/master/README_CN.md)
 
 ## Introduction
-this is a base repository, help to create library quickly.
+This is a mock service based on koa2 implementation.
 
 ## Features
-this is a base repository, help to create library quickly.
+
+Supports two mock modes：
+* json
+* proxy
+use proxy need [koa2-demo-server](https://github.com/easy-templates/koa2-demo-server)
 
 ## Quickstart
 
@@ -25,8 +29,9 @@ $ npm i
 
 ### Usage
 
-* replace `koa2-demo-mock` to Repository name
-* replace `easy-templates` to Organization name
+```
+$ npm run start
+```
 
 ## Contribution
 Please make sure to read the Contributing Guide before making a pull request.

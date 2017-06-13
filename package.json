@@ -1,7 +1,7 @@
 {
   "name": "koa2-demo-mock",
   "version": "1.0.0",
-  "description": "",
+  "description": "koa2 mock example",
   "main": "index.js",
   "scripts": {
     "start": "gulp server",

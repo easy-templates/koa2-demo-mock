@@ -9,10 +9,14 @@
 [English Document](https://github.com/easy-templates/koa2-demo-mock)
 
 ## 介绍
-这是一个基础仓库模板，用于快速创建空工程。
+这是一个基于koa2实现的mock服务。
 
 ## 功能
-本仓库为模板，创建基础文件，在此基础上进行相应修改。
+
+支持两种mock方式：
+* json数据
+* 代理
+使用代理方式需要配合[koa2-demo-server](https://github.com/easy-templates/koa2-demo-server)
 
 ## 快速上手
 
@@ -25,8 +29,9 @@ $ npm i
 
 ### 使用
 
-* 将`koa2-demo-mock` 替换为对应工程名称
-* 将`easy-templates` 替换为对应组织名称
+```
+$ npm run start
+```
 
 ## 如何参与贡献
 fork我们的项目到您的repo里面，通过git来提交给我们pr，我们真诚希望您的参与,使我们变得更好。
