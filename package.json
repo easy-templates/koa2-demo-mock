@@ -1,0 +1,29 @@
+{
+  "name": "koa2-demo-mock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp server",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easy-templates/koa2-demo-mock.git"
+  },
+  "author": "LiuYueKai (liuyuekainihao@163.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/easy-templates/koa2-demo-mock/issues"
+  },
+  "homepage": "https://github.com/easy-templates/koa2-demo-mock#readme",
+  "dependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "koa": "^2.2.0",
+    "koa-better-http-proxy": "^0.2.2",
+    "koa-router": "^7.2.0",
+    "koa-static": "^3.0.0"
+  }
+}

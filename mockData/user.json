@@ -1,0 +1,11 @@
+{
+    "users": [{
+        "id": 1,
+        "code": "code1-json-data",
+        "name": "name1-json-data"
+    }, {
+        "id": 2,
+        "code": "code2-json-data",
+        "name": "name2-json-data"
+    }]
+}

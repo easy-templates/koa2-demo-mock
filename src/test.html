@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>koa2-demo-server test</title>
+</head>
+
+<body>
+    <div class="">
+        <span>请求用户:</span>
+    </div>
+    <div id="user-get">
+        <span></span>
+    </div>
+
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        $.ajax({
+            type: "get",
+            url: "/user",
+            dataType: "json",
+            async: true,
+            success: function(data) {
+                var dataStr = JSON.stringify(data);
+                $('#user-get span').html(dataStr);
+            },
+            error: function(e) {
+            }
+        });
+    </script>
+</body>
+
+</html>
