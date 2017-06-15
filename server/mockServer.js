@@ -29,7 +29,7 @@ module.exports = function(app) {
                 mock();
             } else if (proxyList) {
                 proxyList.forEach(function(config) {
-                    app.use(proxy(config.host));
+                    app.use(proxy(config.host, config.options));
                     console.log('Proxy :', '\x1b[33m', ' -> ', config.host, '\x1b[0m', ' Started.');
                 });
             }
